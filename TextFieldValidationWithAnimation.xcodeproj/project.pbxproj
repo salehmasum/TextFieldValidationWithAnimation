@@ -16,6 +16,7 @@
 		5121CB3628CE0A740026C72E /* TextFieldValidationWithAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121CB3528CE0A740026C72E /* TextFieldValidationWithAnimationTests.swift */; };
 		5121CB4028CE0A740026C72E /* TextFieldValidationWithAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121CB3F28CE0A740026C72E /* TextFieldValidationWithAnimationUITests.swift */; };
 		5121CB4228CE0A740026C72E /* TextFieldValidationWithAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121CB4128CE0A740026C72E /* TextFieldValidationWithAnimationUITestsLaunchTests.swift */; };
+		5121CB5028CE0C450026C72E /* FormFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5121CB4F28CE0C450026C72E /* FormFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5121CB3B28CE0A740026C72E /* TextFieldValidationWithAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldValidationWithAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5121CB3F28CE0A740026C72E /* TextFieldValidationWithAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidationWithAnimationUITests.swift; sourceTree = "<group>"; };
 		5121CB4128CE0A740026C72E /* TextFieldValidationWithAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidationWithAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5121CB4F28CE0C450026C72E /* FormFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,9 @@
 		5121CB1D28CE0A710026C72E /* TextFieldValidationWithAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				5121CB1E28CE0A710026C72E /* AppDelegate.swift */,
-				5121CB2028CE0A710026C72E /* SceneDelegate.swift */,
+				5121CB4E28CE0B590026C72E /* File */,
 				5121CB2228CE0A710026C72E /* ViewController.swift */,
-				5121CB2428CE0A710026C72E /* Main.storyboard */,
-				5121CB2728CE0A740026C72E /* Assets.xcassets */,
-				5121CB2928CE0A740026C72E /* LaunchScreen.storyboard */,
-				5121CB2C28CE0A740026C72E /* Info.plist */,
+				5121CB4F28CE0C450026C72E /* FormFieldView.swift */,
 			);
 			path = TextFieldValidationWithAnimation;
 			sourceTree = "<group>";
@@ -125,6 +123,19 @@
 				5121CB4128CE0A740026C72E /* TextFieldValidationWithAnimationUITestsLaunchTests.swift */,
 			);
 			path = TextFieldValidationWithAnimationUITests;
+			sourceTree = "<group>";
+		};
+		5121CB4E28CE0B590026C72E /* File */ = {
+			isa = PBXGroup;
+			children = (
+				5121CB1E28CE0A710026C72E /* AppDelegate.swift */,
+				5121CB2028CE0A710026C72E /* SceneDelegate.swift */,
+				5121CB2428CE0A710026C72E /* Main.storyboard */,
+				5121CB2728CE0A740026C72E /* Assets.xcassets */,
+				5121CB2928CE0A740026C72E /* LaunchScreen.storyboard */,
+				5121CB2C28CE0A740026C72E /* Info.plist */,
+			);
+			name = File;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5121CB2328CE0A710026C72E /* ViewController.swift in Sources */,
+				5121CB5028CE0C450026C72E /* FormFieldView.swift in Sources */,
 				5121CB1F28CE0A710026C72E /* AppDelegate.swift in Sources */,
 				5121CB2128CE0A710026C72E /* SceneDelegate.swift in Sources */,
 			);
